@@ -11,6 +11,7 @@ public class mdc extends mdcrapor
 
         //Login
 
+        System.out.println("MDC sistemine bağlanıyor.. hoş geldin!");
         System.out.print("Kullanıcı adını girin: ");
         String username = sc.nextLine();
 
@@ -19,8 +20,8 @@ public class mdc extends mdcrapor
 
 
         if (username.equals("Murat") && password.equals("123mrt123")) {
-            System.out.println("Officer " + username + " yönetim paneline hoş geldin!");
-            System.out.println("1: Şüpheli sorgulama | 2: Plaka sorgulama | 3: Rapor ekleme");
+            System.out.println("Amir " + username + " yönetim paneline hoş geldin!");
+            System.out.println("1: Şüpheli sorgulama | 2: Plaka sorgulama | 3: Rapor ekleme | 4: Görev belirle ");
             System.out.print(">>>> ");
             int choice = sc.nextInt();
 
@@ -43,6 +44,7 @@ public class mdc extends mdcrapor
                     }
                     break;
                 case 2:
+                    sc.nextLine();
                     System.out.print("Plaka girin (örn: 34ABC123): ");
                     String plaka = sc.nextLine();
                     if (plaka.equalsIgnoreCase("34ABC123")) {
@@ -71,6 +73,19 @@ public class mdc extends mdcrapor
                     System.out.println("Raporu yazan: " + username + "  | Olay: " + rapor.satir + "  | Lokasyon: "+ rapor.lokasyon + "  | Tarih: " + rapor.date);
 
                     break;
+                case 4:
+                    sc.nextLine();
+                    System.out.println(" ---- Görev yeri belirleme  ----");
+                    System.out.print("Görev vermek istediğiniz polisin adını girin: ");
+                    String gorevalan = sc.nextLine();
+
+                    System.out.print("Görev yerini girin: ");
+                    String lokasyon = sc.nextLine();
+
+                    System.out.println("TELSİZ: Memur " + gorevalan + ", " + username + " amir tarafından " + lokasyon +
+                    " lokasyonuna görev için yönlendirildi");
+                    break;
+
                 default:
                     System.out.println("Geçersiz veri girdiğiniz için sistem kapatılıyor.");
                     break;
