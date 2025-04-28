@@ -21,7 +21,7 @@ public class mdc extends mdcrapor
 
         if (username.equals("Murat") && password.equals("123mrt123")) {
             System.out.println("Amir " + username + " yönetim paneline hoş geldin!");
-            System.out.println("1: Şüpheli sorgulama | 2: Plaka sorgulama | 3: Rapor ekleme | 4: Görev belirle ");
+            System.out.println("1: Şüpheli sorgulama | 2: Plaka sorgulama | 3: Rapor ekleme | 4: Görev belirle  | 5: Kullanıcı ekle ");
             System.out.print(">>>> ");
             int choice = sc.nextInt();
 
@@ -86,6 +86,25 @@ public class mdc extends mdcrapor
                     " lokasyonuna görev için yönlendirildi");
                     break;
 
+                case 5:
+                    mdcadduser newuser = new mdcadduser();
+                    sc.nextLine();
+                    System.out.print("Kullanıcı ekleyen moderatör: ");
+                    newuser.moderator = sc.nextLine();
+
+                    System.out.print("Yeni kullanıcı username: ");
+                    newuser.ausername = sc.nextLine();
+
+                    System.out.print("Yeni kullanıcı password: ");
+                    newuser.password = sc.nextLine();
+
+                    System.out.print("Yeni kullanıcı rütbe: ");
+                    newuser.rank = sc.nextLine();
+
+                    System.out.println("Yeni kullanıcı eklendi! > " +newuser.ausername+ " " +newuser.password+ " " +newuser.rank);
+                    break;
+
+
                 default:
                     System.out.println("Geçersiz veri girdiğiniz için sistem kapatılıyor.");
                     break;
@@ -97,7 +116,6 @@ public class mdc extends mdcrapor
             System.out.println("Geçersiz kullanıcı adı veya şifre girdiğiniz için sistem kapatıldı!");
             return;
         }
-
 
 
 
