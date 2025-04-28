@@ -40,6 +40,7 @@ https://prnt.sc/JCF29IcsM2nc > Sorgu 2
 https://prnt.sc/UUTRNyFhMoj8 > Plaka sorgu
 https://prnt.sc/DcIiUG3cZJI5 > Rapor ekleme
 https://prnt.sc/wRzeXaWNJjwu > Görev belirleme
+https://prnt.sc/JZfN8tRkq0Ng > Kullanıcı ekleme
 
 
 
