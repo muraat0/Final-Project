@@ -45,5 +45,5 @@
 
 1. Bu repoyu klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/polis-tableti-mdc.git
-   cd polis-tableti-mdc
+   git clone https://github.com/kullaniciadi/mdc.git
+   cd mdc
