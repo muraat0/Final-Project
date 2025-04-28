@@ -34,7 +34,6 @@
 
 ## 🖥️ Ekran Görüntüleri
 
-|-------------|----------|-----------|
 https://prnt.sc/3SMlMRiKPqqK > Login
 https://prnt.sc/0kvnLIOIh9Ah > Sorgu 1
 https://prnt.sc/JCF29IcsM2nc > Sorgu 2
