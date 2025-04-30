@@ -28,8 +28,6 @@
 | Sunucu (Backend)   | Java                   |
 | Veritabanı         | MySQL                  |
 
-> Bu tablo senin kullandığın teknolojiye göre özelleştirilebilir.
-
 ---
 
 ## 🖥️ Ekran Görüntüleri
